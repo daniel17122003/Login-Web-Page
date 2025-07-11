@@ -9,7 +9,7 @@ body{
 nav{
     background-color: rgb(5, 5, 5);
     color: bisque;
-    padding: 20px;
+    padding: 15px;
     border-end-end-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -19,7 +19,21 @@ h2.head{
 li,ul,h2{
     display: inline;
 }
-ul{
+.s1{
+    border: none;
+    border: 3px solid #ccc;
+    margin-left: 31.5%;
+    padding: 8px;
+    font-size: medium;
+    width: 400px;
+    border-radius: 25px;
+}
+.s1:hover{
+    border-color: white;
+    box-shadow: 0px 0px 10px white;
+    touch-action:manipulation;
+}
+ ul{
     float: right; 
 }
 li a{
